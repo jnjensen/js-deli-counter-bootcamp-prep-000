@@ -19,9 +19,9 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
-    var sentence = "The line is currently: "
+    var sentence = "The line is currently:"
     for (var y = 0; y < line.length; y++){
-      sentence = sentence + `${y}. ${line[y]},`
+      sentence = sentence + ` ${y + 1}. ${line[y]},`
     }
     return sentence
   }
