@@ -20,6 +20,6 @@ function currentLine(line){
   }
   else{
     var sentence = "The line is currently: "
-    while
+    for (var y = 0; )
   }
 }
