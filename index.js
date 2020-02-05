@@ -8,6 +8,8 @@ function nowServing(currentLine){
     return "There is nobody waiting to be served!"
   } 
   else{
-    
+    var x = currentLine[0]
+    currentLine.shift()
+    return `Currently serving ${x}.`
   }
 }
