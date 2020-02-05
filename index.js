@@ -23,7 +23,7 @@ function currentLine(line){
     for (var y = 0; y < line.length; y++){
       sentence = sentence + ` ${y + 1}. ${line[y]},`
     }
-    sentence = sentence.slice(sentence.length)
+    sentence = sentence.substr(0, (sentence.length-1)
     return sentence
   }
   
