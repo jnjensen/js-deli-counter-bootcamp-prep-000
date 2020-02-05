@@ -20,6 +20,10 @@ function currentLine(line){
   }
   else{
     var sentence = "The line is currently: "
-    for (var y = 0; )
+    for (var y = 0; y < line.length; y++){
+      sentence = sentence + `${y}. ${line[y]}`,
+    }
+    return sentence
   }
+  
 }
